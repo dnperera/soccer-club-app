@@ -1,5 +1,5 @@
 import React from "react";
-import { TeamLogo } from "../ui/icons";
+import { TeamLogo } from "../utils/icons";
 
 const Footer = () => {
   return (

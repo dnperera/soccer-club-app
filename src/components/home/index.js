@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import Featured from "./featured";
+import Matches from "../matches";
 class Home extends Component {
   render() {
     return (
       <div className="bck_blue">
         <Featured />
+        <Matches />
       </div>
     );
   }
