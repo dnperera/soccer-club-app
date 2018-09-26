@@ -1,6 +1,6 @@
 import React from "react";
 import Label from "../utils/label";
-import MatchesList from "./Matches";
+import ListOfMatches from "./ListOfMatches";
 
 const Matches = () => {
   return (
@@ -10,7 +10,7 @@ const Matches = () => {
           {" "}
           Matches
         </Label>
-        <MatchesList />
+        <ListOfMatches />
         <Label bck="#fff" size="30px" color="#0e1731" link="/matches">
           {" "}
           More Matches ...
